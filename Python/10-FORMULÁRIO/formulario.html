@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="utf-8">
+  <title>Formulário</title>
+  <link href="form.css" rel="stylesheet">
+ </head>
+
+ <body>
+  <h1>Entre em contato!</h1>
+  <form method="post" action="form.php">
+
+   <fieldset>
+    <legend>Dados Pessoais:</legend>
+    
+    <p>
+     <label for="nome">Nome:</label><br>
+     <input class="preenche" name="nome" type="text" placeholder="Coloque seu nome!" required>
+    </p>
+
+    <p>
+     <label for="telefone">Telefone:</label><br>
+     <input class="preenche" name="telefone" type="tel" placeholder="Coloque o DDD.">
+    </p>
+    
+    <p>
+     <label for="email">E-mail:</label><br>
+     <input class="preenche" name="email" type="email" placeholder="E-mail válido." required>
+    </p>
+   </fieldset>
+
+   <fieldset>
+    <legend>Infos Adicionais:</legend>
+
+    <p>Você gosta de carros?</p>
+
+    <input name="carro" type="radio" value="sim">
+    <label for="carro">sim</label>
+
+    <input name="carro" type="radio" value="nao">
+    <label for="carro">Não</label>
+     
+    <p>Quais marcas de carro você conhece?</p>
+
+    <input name="veiculo" type="checkbox" value="volks">
+    <label for="veiculo">Volks</label>
+
+    <input name="veiculo" type="checkbox" value="GM">
+    <label for="veiculo">GM</label>
+
+    <input name="veiculo" type="checkbox" value="fiat">
+    <label for="veiculo">Fiat</label>
+
+    <input name="veiculo" type="checkbox" value="outros">
+    <label for="veiculo">Outros</label>
+
+    <p>Você tem algum veículo?</p>
+ 
+    <label for="tipo">Veículo:</label>
+    <select name="tipo">
+     <option value="nenhum"></option>
+     <option value="bicicleta">Bicicleta</option>
+     <option value="moto">Moto</option>
+     <option value="carro">Carro</option>
+     <option value="barco">Barco</option>
+     <option value="heli">Helicóptero</option>
+     <option value="aviao">Avião</option>
+     <option value="outros">Outros</option>
+    </select>
+   </fieldset> 
+
+ <fieldset>
+    <legend>Mensagem:</legend>
+
+    <label for="mensagem">Descreva sua dúvida:</label><br>
+    <textarea name="mensagem"></textarea>
+   </fieldset>
+
+  <p class="alinha"><button name="enviar" type="submit">Enviar!</button></p>
+
+  </form>
+ 
+ </body>
+</html>
+
+
+
+
+

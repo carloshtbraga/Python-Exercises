@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+body{
+width:100%;
+max-width:1200px;
+height:auto;
+margin:auto;
+background-color:pink;
+}
+
+@media screen and (min-width:1024px){ 
+
+#grupo1{
+width:100%;
+height:auto;
+overflow:hidden;
+background-color:red;
+}
+
+ .caixa1{
+ width:200px;
+ height:200px;
+ margin:10px 10px 10px 0;
+ float:right;
+ background-color:darkred;
+ }
+
+#caixa2{
+width:200px;
+height:400px;
+margin:10px 5px;
+float:right;
+background-color:gold;
+}
+
+#grupo2{
+width:100%;
+height:auto;
+display:flex;
+justify-content:space-evenly;
+background-color:green;
+}
+
+ .caixa3{
+ width:200px;
+ height:200px;
+ margin:10px 0;
+ border:solid 1px black;
+ background-color:lightgreen;
+ }
+
+.caixa4{
+width:39%;
+height:200px;
+margin-top:10px;
+float:left;
+background-color:blue;
+}
+
+#caixa5{
+width:20%;
+height:200px;
+margin:1%;
+float:left;
+background-color:lightblue;
+}
+
+
+}/*---FECHAMENTO DESKTOP---*/
+
+@media screen and (min-width:481px) and (max-width:1023px){
+
+#caixa2{
+width:200px;
+height:400px;
+margin:10px 5px;
+float:right;
+background-color:gold;
+}
+
+#grupo2{
+width:100%;
+height:auto;
+overflow:hidden;
+background-color:green;
+}
+
+ .caixa3{
+ width:48%;
+ height:200px;
+ margin:10px 1%;
+ float:left;
+ /*border:solid 1px black;*/
+ background-color:lightgreen;
+ }
+
+
+}/*---FECHAMENTO TABLETS---*/
+
+
+
+
+
+
+

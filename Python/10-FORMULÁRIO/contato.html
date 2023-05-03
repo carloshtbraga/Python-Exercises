@@ -1,0 +1,80 @@
+<!DCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="utf-8">
+  <title>Formulário</title>
+ </head>
+  
+ <body>
+  
+  <form action="arquivo.php" method="post">
+  
+   <fieldset>
+    <legend>Dados Pessoais:</legend>
+    
+    <p><label for="nome">Nome</label>
+    <input type="text" name="nome" placeholder="Nome completo"></p>
+ 
+
+    <p><label for="email">E-mail</label>
+    <input type="email" nome="email" required></p>
+
+   </fieldset>  
+
+   <fieldset>
+    <legend>Opções para o curso:</legend>
+
+    <p><label for="unidade">Unidade</label>
+    <select name="unidade">
+     <option value="bota">Botafogo</option>
+     <option value="copa">Copacabana</option>
+     <option value="centro">Centro</option>
+    </select></p>
+
+    <p><input type="radio" name="pre">
+    <label for="pre">Presencial</label><br>
+
+    <input type="radio" name="on">
+    <label for="on">Online</label></p>
+
+    <input type="checkbox" name="python">
+    <label for="python">Python</label>
+
+    <input type="checkbox" name="java">
+    <label for="java">Java</label>
+
+    <input type="checkbox" name="html">
+    <label for="html">HTML & CSS</label>
+
+   </fieldset>
+
+   <fieldset>
+   <legend>Sugestões:</legend>
+    <p><label for="mensagem">Mensagem</label></p>
+    <p><textarea name="mensagem"></textarea></p>
+    <input type="submit" value="Enviar">
+   </fieldset>
+  </form>
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+ </body>
+</html>

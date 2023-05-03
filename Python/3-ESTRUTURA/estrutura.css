@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+#topo{
+width:1000px;
+margin:auto;
+overflow:hidden;
+background:red;
+}
+
+ #logo{
+ width:200px;
+ height:200px;
+ margin:0;
+ float:left;
+ background:darkred; 
+ }
+
+ #menu{
+ width:800px;
+ height:200px;
+ margin:0;
+ float:left;
+ background:brown;
+ }
+
+#principal{
+width:1000px;
+height:auto;
+margin:auto;
+padding:10px;
+box-sizing:border-box;
+background:orange;
+}
+
+ #banner{
+ width:980px;
+ height:200px;
+ background:pink;
+ }
+
+ #gquadro{
+ margin:10px 0;
+ display:flex;
+ justify-content:space-between;
+ background:green;
+ }
+
+ .quadro{
+ width:240px;
+ height:350px;
+ background:lightgreen;
+ }
+
+ #gnoticia{
+ margin:10px 0;
+ display:flex;
+ justify-content:space-between;
+ background:green;
+ }
+
+ .noticia{
+ width:485px;
+ height:200px;
+ background:lightgreen;
+ }
+
+#rodape{
+width:1000px;
+height:200px;
+margin:auto;
+background:yellow;
+}

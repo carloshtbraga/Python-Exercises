@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+html{
+scroll-behavior:smooth;
+}
+
+main{
+max-width:800px;
+margin:40px auto;
+}
+
+#menu{
+width:100%;
+display:flex;
+justify-content:center;
+position:fixed;
+top:0;
+background-color:crimson;
+}
+
+#menu a{
+height:30px;
+margin:10px;
+font-size:30px;
+text-decoration:none;
+font-family:arial, sans-serif;
+color:white;
+}
+
+#menu a:hover{
+font-size:32px;
+color:gold;
+}
+
+section{
+padding:30px;
+}
+
+
+
+
+

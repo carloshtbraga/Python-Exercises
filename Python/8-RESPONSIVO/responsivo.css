@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+@media screen and (min-width:1024px){/*--ABERTURA DESK--*/
+.caixa1{
+width:400px;
+height:100px;
+float:left;
+background-color:black;
+}
+
+.caixa2{
+width:200px;
+height:200px;
+float:left;
+background-color:yellow;
+}
+
+}/*--FECHAMENTO DESK--*/
+
+@media screen and (min-width:481px) and (max-width:1023px){/*--ABERTURA TABLET--*/
+.caixa1{
+width:200px;
+height:200px;
+float:left;
+background-color:red;
+}
+
+.caixa2{
+width:400px;
+height:100px;
+float:left;
+background-color:green;
+}
+
+}/*--FECHAMENTO TABLET--*/
+
+@media screen and (max-width:480px){/*--ABERTURA SMART--*/
+.caixa1{
+width:100px;
+height:400px;
+float:left;
+background-color:blue;
+}
+
+.caixa2{
+width:100px;
+height:300px;
+float:left;
+background-color:orange;
+}
+
+}/*--FECHAMENTO SMART--*/
